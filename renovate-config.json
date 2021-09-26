@@ -2,5 +2,11 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
   "commitMessagePrefix": "Chore: ",
-  "commitMessageTopic": "{{depName}}"
+  "commitMessageTopic": "{{depName}}",
+  "packageRules": [
+    {
+      "matchDepTypes": ["devDependencies"],
+      "commitBody": "[skip netlify]"
+    }
+  ]
 }
