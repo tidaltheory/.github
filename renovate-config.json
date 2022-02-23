@@ -7,6 +7,10 @@
     {
       "matchDepTypes": ["devDependencies"],
       "prBodyNotes": ["[skip netlify]"]
+    },
+    {
+      "groupName": "Changesets",
+      "matchPackagePrefixes": "@changesets"
     }
   ]
 }
