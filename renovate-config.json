@@ -9,7 +9,7 @@
       "prBodyNotes": ["[skip netlify]"]
     },
     {
-      "groupName": "Changesets",
+      "groupName": "changesets monorepo",
       "matchPackagePrefixes": "@changesets"
     }
   ]
