@@ -7,7 +7,7 @@
     {
       "matchDepTypes": ["devDependencies"],
       "additionalBranchPrefix": "dev/",
-      "prBodyNotes": ["[skip netlify]"]
+      "commitMessageSuffix": ["[skip netlify]"]
     },
     {
       "groupName": "changesets monorepo",
