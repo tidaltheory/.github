@@ -6,6 +6,7 @@
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],
+      "additionalBranchPrefix": "dev/",
       "prBodyNotes": ["[skip netlify]"]
     },
     {
